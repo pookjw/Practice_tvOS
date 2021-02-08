@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         /*
          nextButton이 Focus인 상태에서 눌러서 showAlert(_:)가 실행되고 다시 돌아올 경우, 아래 값이 true이면 nextButton으로 Focus를 다시 둔다.
-         하지만 false이면 Focus를 다시 기본값 (preferredFocusEnvironments)로 리셋시킨다.
+         하지만 false이면 Focus를 다시 기본값 (preferredFocusEnvironments)으로 리셋시킨다.
          */
         restoresFocusAfterTransition = false
     }
@@ -32,18 +32,13 @@ class ViewController: UIViewController {
     override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
         super.didUpdateFocus(in: context, with: coordinator)
         
-        // if the user is mocing towards the text field
+        // if the user is moving towards the text field
         if context.nextFocusedView == textField {
             // tell the focus guide to redirect to the next button
             focusGuide.preferredFocusEnvironments = [nextButton]
         } else if context.nextFocusedView == nextButton {
             // otherwise tell the focus guide to redirect to the text field
             focusGuide.preferredFocusEnvironments = [textField]
-            
-            // 여기에다 해도 노상관
-//            coordinator.addCoordinatedAnimations({
-//                self.textFieldTip.alpha = 0
-//            })
         }
         
         if context.nextFocusedView == textField {
