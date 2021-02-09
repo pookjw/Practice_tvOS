@@ -7,6 +7,12 @@
 
 import UIKit
 
+/*
+ focusedFrameGuide을 쓸 경우, UIImageView가 커졌을 때의 frame으로 Constraint를 지정한다.
+ 아래 코드에서 focusedFrameGuide를 지워보면, UILabel은 원래 frame으로 Constraint를 갖기 때문에 UILabel의 frame은 변하지 않는다.
+ 하지만 focusedFrameGuide를 쓰면, UILabel은 focused frame으로 반영되어서 height가 줄어든다.
+ */
+
 class NewsCell: UICollectionViewCell {
     @IBOutlet weak var imageView: RemoteImageView!
     @IBOutlet weak var textLabel: UILabel!

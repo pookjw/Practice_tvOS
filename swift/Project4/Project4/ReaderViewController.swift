@@ -39,6 +39,11 @@ class ReaderViewController: UIViewController {
         
         //
         
+        /*
+         UITouchTypeIndirect : 트랙패드, 애플티비 리모컨
+         UITouchTypeDirect : 직접 터치
+         UITouchTypePencil : 애플펜슬 지원
+         */
         body.panGestureRecognizer.allowedTouchTypes = [UITouch.TouchType.indirect.rawValue] as [NSNumber]
         body.isSelectable = true
     }

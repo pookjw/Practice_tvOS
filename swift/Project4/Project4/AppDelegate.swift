@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             // 3: Loop over all the categories
             for category in categories {
-                // 4: Create a new view controllre for this category
+                // 4: Create a new view controller for this category
                 if let newsController = tabBarController.storyboard?.instantiateViewController(identifier: "News") as? ViewController {
                     // 5: Give it the title of this category
                     newsController.title = category
