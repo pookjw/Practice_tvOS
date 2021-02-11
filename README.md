@@ -43,3 +43,11 @@
 ![](images/16.png)
 
 ![](images/17.png)
+
+### Chapter 5
+
+![](images/18.png)
+
+![](images/19.png)
+
+![](images/20.png)
