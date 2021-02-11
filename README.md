@@ -51,3 +51,9 @@
 ![](images/19.png)
 
 ![](images/20.png)
+
+### Chapter 6
+
+![](images/21.png)
+
+![](images/22.png)
