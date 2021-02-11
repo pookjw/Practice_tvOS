@@ -57,3 +57,10 @@
 ![](images/21.png)
 
 ![](images/22.png)
+
+### Chapter 7
+
+![](images/23.png)
+
+![](images/24.png)
+
