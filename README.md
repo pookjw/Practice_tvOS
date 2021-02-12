@@ -64,3 +64,11 @@
 
 ![](images/24.png)
 
+### Chapter 9
+
+![](images/25.png)
+
+![](images/26.png)
+
+![](images/27.png)
+
