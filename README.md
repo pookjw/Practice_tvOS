@@ -72,3 +72,8 @@
 
 ![](images/27.png)
 
+### FullScreenTopShelf (replacement of Chapter 9)
+
+[Building a Full Screen Top Shelf Extension (Apple)](https://developer.apple.com/documentation/tvservices/building_a_full_screen_top_shelf_extension?changes=__3_1)
+
+![](images/28.png)
