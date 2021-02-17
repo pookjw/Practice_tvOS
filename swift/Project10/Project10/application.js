@@ -23,7 +23,7 @@ let genres = {};
 let movies = {};
 
 App.onLaunch = function(options) {
-    // 앱의 경로(path)를 arg에 있는 options에서 얻어온다. this는 self(=App)을 뜻한다. zoomTrailer에서 App에 접근해서 가져온다.
+    // 앱의 경로(path)를 arg에 있는 options에서 얻어 온다. this는 self(=App)을 뜻한다. zoomTrailer에서 App에 접근해서 가져온다.
     this.baseURL = options.BASEURL;
 
     // var alert = createAlert("Hello World!", "Welcome to tvOS");
@@ -99,7 +99,7 @@ function loadData(url, callback) {
 
 // JSON에서는 & 기호를 자유롭게 쓸 수 있지만, XML에서는 그렇지 않다. & 대신에 &amp; 기호를 써야 한다.
 function fixXML(str) {
-  return str.replace("&", "&amp;");
+  return str.replaceAll("&", "&amp;");
 }
 
 function parseJSON(text) {

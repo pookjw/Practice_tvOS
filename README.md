@@ -64,7 +64,7 @@
 
 ![](images/24.png)
 
-### Chapter 9
+### Chapter 8
 
 ![](images/25.png)
 
@@ -89,4 +89,3 @@
 ![](images/32.png)
 
 ![](images/33.png)
-
